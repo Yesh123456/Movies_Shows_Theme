@@ -1,0 +1,168 @@
+<!-- This is Responsive front end of the movies and shows page 
+there is no main banner for each movies and shows 
+view more is not working for more shows and movies
+Other part of news letter is not shown..similarly photos are not given. -->
+<!-- Yesh Jadav    Ui design : Meckanzie-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Movies & Shows</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Oswald:wght@500&display=swap" rel="stylesheet">  
+	<link rel="stylesheet" type="text/css" href="scss/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<header id="top_header"class="clearfix">
+		<div class="wrapper">
+			<h1 class="logo">Movies<span>&amp;</span>Shows</h1>
+			<a href="#" class="menu"><i class="fa fa-bars"></i></a>
+			<nav id="main_nav">
+				<a href="#top_movies">Movies</a>
+				<a href="#top_shows">TV Shows</a>
+				<a href="#">Celebs &amp; Photos</a>
+				<a href="#newsletter">News</a>
+			</nav>
+		</div>
+	</header>
+	<section id="banner" class="clearfix">
+		<div id="banner_content_wrapper">
+			<div id="poster">
+				<img src="images/movies/kgf-poster.jpg" alt="KGF2" class="featured_image">
+				<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwib3uOtke3rAhXrzDgGHeB_DjEQtwIwAHoECAEQAQ&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D5PYUQEzAsN0&usg=AOvVaw1lX5xqcDDsGNmQXNfegqux">
+					<img src="images/play.png" alt="Play" class="play_button">
+				</a>
+			</div>
+			<div id="content">
+				<h2 class="title">KGF 2</h2>
+				<div class="ratings">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star inactive"></i>
+				</div>
+				<p class="description">
+					<i>K.G.F: Chapter 2 is an upcoming Indian Kannada-language period action film directed by Prashanth Neel. A sequel to the 2018 film K.G.F: Chapter 1, the film stars Yash in the lead reprising his role from the first film and Bollywood actor Sanjay Dutt as the antagonist. Principal photography began in March 2019.</i>
+				</p>
+				<p class="info">
+					150mins <span>|</span> Action,Adventure,Comedy <span>|</span> 23 October 2020
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="top_movies" class="clearfix">
+		<div class="wrapper"> 
+			<header class="clearfix"> 
+				<h2> Popular Movies</h2>
+				<p class="view">View more <a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
+			</header>
+			<div class="row">
+				<div class="post"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwiUjMzkle3rAhUXyDgGHZpfD3QQtwIwAHoECAQQAQ&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNgrICJelIYM&usg=AOvVaw1VbbUXA-4eZp-G6feFjOSm">
+					<img src="images/movies/satyamev-poster.jpg" alt="Satyamev Jayate 2"></a>
+					<h3 class="title">Satyameva Jayate 2</h3>
+					<p class="post_info">Adventure | 140mins</p>
+				</div>
+			
+				<div class="post"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwiqnKj0le3rAhXezzgGHasXBwcQtwIwAHoECAUQAQ&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Du5r77-OQwa8&usg=AOvVaw0nwgvGuxdtn4PXfXDjDXc-">  
+					<img src="images/movies/soryavanshi-poster.jpg" alt="Sooryavanshi"></a>
+					<h3 class="title">Sooryavanshi 2</h3>
+					<p class="post_info">Action | 160mins</p>
+				</div>
+			
+				<div class="post"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwjf0P3Olu3rAhV4zTgGHV7NBbwQtwIwAHoECAMQAQ&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DE0BqTee5nsw&usg=AOvVaw1EjTq9a-7T2P8nkwxnnZ-v">  
+					<img src="images/movies/brahmastra-poster.jpeg" alt="Brahmastra"></a>
+					<h3 class="title">Brahmastra</h3>
+					<p class="post_info">Fantasy | 120mins</p>
+				</div>
+			
+				<div class="post"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwjO3KXxlu3rAhXexjgGHSnwCOgQtwIwAHoECAQQAQ&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwlVAQMB7TDY&usg=AOvVaw1bhroGOZHKh8s9w3aDqS8F">  
+					<img src="images/movies/83-poster.jpg" alt="83"></a>
+					<h3 class="title">83 The Film</h3>
+					<p class="post_info">Sport | 170mins</p>
+				</div>
+			
+				<div class="post"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwiWnav7lu3rAhWoyTgGHYW7AUcQtwIwAHoECAAQAQ&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DccrXxfNgP_c&usg=AOvVaw0PrXBmXmG3JOcGpScjpxsJ">  
+					<img src="images/movies/bp-poster.jpg" alt="Bachpan-Pandey"></a>
+					<h3 class="title">Bachpan Pandey</h3>
+					<p class="post_info">Comedy | 155mins</p>
+				</div>
+
+				<div class="post"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwiM2piFl-3rAhW1yTgGHQymC1gQtwIwAHoECAYQAQ&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvATquZKdwsk&usg=AOvVaw2G8uxYlSG1h_WIWeCdYfqH">  
+					<img src="images/movies/prithviraj-poster.jpg" alt="Prithviraj"></a>
+					<h3 class="title">Prithviraj</h3>
+					<p class="post_info">Drama | 165mins</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="top_shows" class="clearfix"> 
+		<div class="wrapper"> 
+			<header class="clearfix"> 
+				<h2> Popular Shows</h2>
+				<p class="view">View more<a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
+			</header>
+			<div class="row">
+				<div class="post"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiZ5PyRl-3rAhV8yzgGHXWiDTQQFjAfegQIFRAB&url=https%3A%2F%2Fwww.sonyliv.com%2Fshows%2Ftaarak-mehta-ka-ooltah-chashmah-1700000084&usg=AOvVaw0_zE-ZbUNU5sbHU9z7xw6k">  
+					<img src="images/shows/tmkoc-poster.jpg" alt="TMKOC"></a>
+					<h3 class="title">Tarak Mehta Ka Ulta Chasma</h3>
+					<p class="post_info">Comedy | 1 Season</p>
+				</div>
+			
+				<div class="post"><a href="https://www.hotstar.com/in/tv/sarabhai-vs-sarabhai/523?utm_source=gwa">
+					<img src="images/shows/sara-poster.jpg" alt="Sarabhai vs Sarabhai"></a>
+					<h3 class="title">SaraBhai vs SaraBhai</h3>
+					<p class="post_info">Sitcom | 2 Seasons</p>
+				</div>
+
+				<div class="post"><a href="https://www.hotstar.com/in/tv/ramayan/1260028501?utm_source=gwa">  
+					<img src="images/shows/rama-poster.jpg" alt="Ramayan"></a>
+					<h3 class="title">Ramayan</h3>
+					<p class="post_info">Drama | 2 Seasons</p>
+				</div>
+			
+				<div class="post"><a href="https://www.hotstar.com/in/tv/bigg-boss/14455?utm_source=gwa">  
+					<img src="images/shows/big-poster.jpg" alt="Big-Boss"></a>
+					<h3 class="title">Big Boss</h3>
+					<p class="post_info">Reality | 13 Seasons</p>
+				</div>
+			
+				<div class="post"><a href="https://www.hotstar.com/in/tv/devon-ke-dev-mahadev/12?utm_source=gwa">  
+					<img src="images/shows/dev-poster.jpg" alt="Devo-Ke-Dev-Mahadev"></a>
+					<h3 class="title">Devon Ke Dev...Mahadev</h3>
+					<p class="post_info">Drama | 36 Seasons</p>
+				</div>
+			
+				<div class="post"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjW4IuWnO3rAhUDzzgGHeTgA2QQFjAKegQIARAB&url=https%3A%2F%2Fwww.sonyliv.com%2Fshows%2Fcid-1700000196&usg=AOvVaw1QGaM8czo8ovsDL5crPnQ4">  
+					<img src="images/shows/cid.jpg" alt="CID"></a>
+					<h3 class="title">CID</h3>
+					<p class="post_info">Drama | 1 Season</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="newsletter"> 
+		<div class="newsletter_inner">
+			<h2>Get best Movie &amp; TV shows trailers straight in your indox weekly.</h2>
+			<div class="sign_up_form">
+				<input type="text" placeholder="First Name">
+				<input type="email" placeholder="Email Address">
+				<button class="button">SUBSCRIBE</butto>
+			</div>
+		</div>
+	</section>
+	<footer id="main_footer"> 
+		<p class="logo">Movies <span>&amp;</span> Shows</p>
+		<p class="copyright">&copy; 2020 Movies &amp; Stuff.All Rights Reserved.</p>
+		<div class="links">
+			<a href="#">Terms of Service</a>
+			<a href="#">Privacy Policy</a>
+		</div>
+	</footer>
+</body>
+</html>
+<!-- Yesh Jadav    Ui design : Meckanzie-->
