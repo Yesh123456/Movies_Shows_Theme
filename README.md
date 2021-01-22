@@ -1,4 +1,19 @@
 # movies-shows
 
-This is preview of the above template desgin 
+******************
+INSTALLATION AND PREREQUITS
+******************
+
+: INSTALL SCSS IN YOUR SYSTEM.
+
+: DOWNLOAD MY FILE
+
+: THIS IS TEMPLATE VIEW OF THE SITE.
+
+: THIS ARE DESIGN FREE BUT STAR THIS IF YOUR USING.
+
+: THIS IS PREVIEW OF MOVIES AND SHOWS.
+
+: CHECKOUT
+
 https://yesh123456.github.io/movies-shows/index.html
